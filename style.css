@@ -1,0 +1,217 @@
+.logo {
+    height: 120px;
+}
+
+
+.nav-custom {
+    top: 110px;
+}
+
+.raqueta {
+    height: 250px;
+    object-fit: contain;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+.raqueta:hover {
+    transform: scale(1.05);
+}
+
+#pure-aero h1 {
+    font-weight: 700;
+}
+
+#pure-aero p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.alcarazz {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+#pure-aero {
+    background: rgba(50, 95, 172, 0.95);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+#pure-aero h1,
+#pure-aero h2,
+#pure-aero h3,
+#pure-aero p,
+#pure-aero li,
+#pure-aero td,
+#pure-aero th {
+    color: white;
+}
+
+.body-custom {
+    background-color: #333; 
+}
+
+
+html {
+    
+    scroll-padding-top: 170px;
+}
+
+
+
+:target {
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 5px;
+    transition: border-bottom 0.5s ease-out;
+}
+
+#formulario-contacto-semantico {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+#formulario-contacto-semantico h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#formulario-contacto-semantico p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+
+#formulario-contacto-semantico fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#formulario-contacto-semantico legend {
+    font-weight: bold;
+    color: #0056b3;
+    padding: 0 10px;
+    font-size: 1.1em;
+}
+
+
+#formulario-contacto-semantico div {
+    margin-bottom: 15px;
+}
+
+#formulario-contacto-semantico label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+#formulario-contacto-semantico input[type="text"],
+#formulario-contacto-semantico input[type="email"],
+#formulario-contacto-semantico textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+#formulario-contacto-semantico textarea {
+    resize: vertical; 
+}
+
+/* Estilos para la SECCIÓN LEGAL (LOPD/RGPD) */
+#formulario-contacto-semantico section {
+    background-color: #e6f7ff; /* Fondo azul claro para distinguirla */
+    border: 1px solid #b3e0ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+#formulario-contacto-semantico h2#titulo-legal {
+    color: #0056b3;
+    border-bottom: 1px solid #b3e0ff;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+/* Estilos para los contenedores de checkbox (Consentimiento) */
+.consent-required, .consent-optional {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start; /* Alinea el texto con la parte superior del checkbox */
+}
+
+.consent-required label, .consent-optional label {
+    font-weight: normal;
+    display: inline;
+    margin-left: 8px;
+    user-select: none; /* Evita que el texto se pueda seleccionar fácilmente */
+}
+
+.consent-required input[type="checkbox"], .consent-optional input[type="checkbox"] {
+    margin-top: 3px;
+    flex-shrink: 0; /* Evita que el checkbox se encoja */
+}
+
+/* Estilos para la INFORMACIÓN BÁSICA (ASIDE) - Capa 1 */
+.rgpd-info {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #b3e0ff;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.rgpd-info h3 {
+    margin-top: 0;
+    color: #0056b3;
+    font-size: 1.1em;
+}
+
+.rgpd-info a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Estilos para el botón de envío */
+#formulario-contacto-semantico button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#formulario-contacto-semantico button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - Cumplimiento LOPD/RGPD</title>
+    <link rel="stylesheet" href="styleLOPD.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "url": "https://tusitio.com/contacto.html",
+  "name": "Formulario de Contacto - RAKETTA",
+  "description": "Página de contacto de RAKETTA para consultas sobre raquetas de tenis, asesoramiento y soporte.",
+  "mainEntity": {
+    "@type": "Organization",
+    "name": "RAKETTA",
+   
+ 
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "tu_email@ejemplo.com",
+      "url": "https://tusitio.com/contacto.html"
+    }
+  }
+}
+</script>
+</head>
+<body>
+
+    <form action="archivo.php" method="POST">
+        <h1>Contáctanos</h1>
+        <p>Utiliza este formulario para enviarnos tu consulta o solicitud de información.</p>
+
+        <fieldset>
+            <legend>Datos de Contacto</legend>
+
+            <div>
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+
+            <div>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+
+            <div>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+        </fieldset>
+
+        <hr>
+
+        <section aria-labelledby="titulo-legal">
+            <h2 id="titulo-legal">Consentimiento y Bases Legales (LOPD/RGPD)</h2>
+
+            <fieldset>
+                <legend>Tu Consentimiento</legend>
+
+                <div class="consent-required">
+                    <input type="checkbox" id="aceptar_privacidad" name="aceptar_privacidad" value="1" required>
+                    <label for="aceptar_privacidad">
+                        He leído y acepto la <a href="politicapriv.html" target="_blank" title="Política de Privacidad">Política de Privacidad</a>.
+                    </label>
+                </div>
+
+                <div class="consent-optional">
+                    <input type="checkbox" id="aceptar_newsletter" name="aceptar_newsletter" value="1">
+                    <label for="aceptar_newsletter">
+                        Deseo recibir la newsletter y comunicaciones comerciales.
+                    </label>
+                </div>
+            </fieldset>
+
+            <aside class="rgpd-info">
+                <h3>Información Básica de Protección de Datos</h3>
+                <p>
+                    Responsable: Amr y la empresa Raketta.<br>
+                    Finalidad Principal: Atender tu consulta.<br>
+                    Legitimación: Tu consentimiento.<br>
+                    Destinatarios: No se ceden datos a terceros, salvo obligación legal.<br>
+                    Derechos: Acceso, Rectificación, Supresión y más.<br>
+                    Info Adicional:Consulta la información detallada en la <a href="politicapriv.html" target="_blank">Política de Privacidad</a> completa.
+                </p>
+            </aside>
+        </section>
+
+        <button type="submit">Enviar Consulta</button>
+    </form>
+
+</body>
+</html>
